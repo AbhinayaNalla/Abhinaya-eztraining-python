@@ -1,0 +1,85 @@
+LIST :an advanced array which can accept more than one data type (ordered elements)
+operations on list
+1 append(): only one ele added at the end of the list
+2 extend(): more than one element at he end of the list
+3 insert(): adding element at the particular position in the list :insert(index,ele)
+4 remove(): removing an particular element
+5 pop(): removing an element with the index value
+6 clear(): removing all elements
+7 index(): return theindex of the first matched item
+8 count(): count the no  of ele i.e., duplication of list is allowed
+9 sort(): sort the ele in ascending order
+10 reverse():reverse the order of items 
+11 copy(): copy the list
+
+
+LIST COMPREHENSION: list under the list 
+
+SET: collection of unordered elements ,duplication doesnt accept
+operations on set
+1 add: adds the element at random position,s.add(ele)
+2 update: adds more than one ele, s.update[(20,30]
+3 discard: removes one elment s.discard(ele)
+4 remove: s.remove(ele)# throws error if you try to remove that list not contain in it
+ let s1={1,3,4,2} and s2={3,6,8,2}
+5 union: s1|s2
+6 intersect: s1&s2
+7 difference: s1-s2,s2-s1
+
+TUPLE: it is also like list but diff is it is unchangable and uses()
+opearations: index
+             count
+			 
+DICTIONARY: dict contains elements with 2 units key and value , key must be unique
+
+s={3,7,8,3,8,9}
+type(s)
+<class 'set'>
+s
+{8, 9, 3, 7}
+s.add(77)
+s
+{3, 7, 8, 9, 77}
+s.update([45,17])
+s
+{3, 7, 8, 9, 77, 45, 17}
+s1={3,8,6,9}
+s2={6,8,3,5}
+s1&s2
+{8, 3, 6}
+s1|s2
+{3, 5, 6, 8, 9}
+s1.symmetric_difference(s2)
+{5, 9}
+
+============ RESTART: C:\Users\ASUS\OneDrive\Documents\day3-prog1.py ===========
+{2, 34, 4, 54}
+t=(10,"abhi","hi",20)
+type(t)
+<class 'tuple'>
+t.index(10)
+0
+t.count("abhi")
+1
+d={1:"abhi",2:"sasu",3:"10"}
+type(d)
+<class 'dict'>
+d.keys()
+dict_keys([1, 2, 3])
+d.values()
+dict_values(['abhi', 'sasu', '10'])
+d.items()
+dict_items([(1, 'abhi'), (2, 'sasu'), (3, '10')])
+
+can create dict from iterables like list,tuple,range
+d.fromkeys(iterable,value) value is optional
+l=['hi','hello']
+>>>dict.fromkeys(l)
+('hi':none,'hello':none)
+>>>dict.fromkeys(l,50)
+{'hi':50,'hello':50}
+{}.fromkeys(l,100)
+s=dict.fromkeys(l,100)
+>>>s1{'hi':100,'hello':100}
+d={1:'a',2:'c'}
+d.setdefault(3,d)
