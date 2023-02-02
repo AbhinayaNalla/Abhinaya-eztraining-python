@@ -1,0 +1,31 @@
+st="Abhinaya Is a Good Girl"
+st.upper()
+'ABHINAYA IS A GOOD GIRL'
+st.lower()
+'abhinaya is a good girl'
+st.casefold()
+'abhinaya is a good girl'
+st.capitalise()
+st.capitalize()
+'Abhinaya is a good girl'
+st.replace('abh','v')
+'Abhinaya Is a Good Girl'
+st.replace('v','abh')
+'Abhinaya Is a Good Girl'
+st.replace('a','v')
+'Abhinvyv Is v Good Girl'
+st.strip()
+'Abhinaya Is a Good Girl'
+st='   abhi    is   a   inti girl   '
+st.strip()
+'abhi    is   a   inti girl'
+st="abhinaya"
+st.split()
+['abhinaya']
+st="Abhi is beautiful"
+st.center(31,"*")
+'*******Abhi is beautiful*******'
+st.center(width.fillchar)
+st.count('a')
+1
+s.count('a'.5.len(s))
