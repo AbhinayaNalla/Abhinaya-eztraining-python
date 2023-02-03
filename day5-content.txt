@@ -1,0 +1,15 @@
+FUNCTIONS: 
+classifications 
+1 predefined functions
+2 user defined
+for code reusability we use functions 
+let say we want to use a concept multiple times in our program
+instead of writing same code many times we can write it once
+include that inside a function and call the function where ever we need it
+TYPES
+1 fun without argument without return value
+2 fun without argument with return value
+3 fun with arg without return value
+4 fun with argument with return value
+RECURSION:
+a function call's it self
