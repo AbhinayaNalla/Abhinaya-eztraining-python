@@ -1,0 +1,2 @@
+EXCEPTION HANDLING: when there is exception  the developer does not want intruption or disturbance 
+in the flow to achieve this we are using this exception handlind
