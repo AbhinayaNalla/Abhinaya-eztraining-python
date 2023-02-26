@@ -1,0 +1,6 @@
+lambda: it is called as anonymous function when we want to use fun concept alone with out 
+with out using fun name
+oops: 1 abstraction
+      2 encapsulation
+	  3 inheritence
+	  4 polymorphism
